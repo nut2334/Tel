@@ -7,7 +7,9 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); ?>
         <title>ลงทะเบียนข้อมูลลูกค้า</title>
     </head>
     <body>
-        ชื่อ-สกุล:
+    <form action="insert-new-customer.php" method="post">
+    
+    ชื่อ-สกุล:
         <select name="cus_prefix">
             <option value='นาย'>นาย</option>
             <option value='นาง'>นาง</option>
@@ -16,5 +18,7 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); ?>
         <input type='text' name="cus_name"><br>
         เบอร์โทรศัพท์: <input type='tel' name="cus_tel"><br>
         <input type='submit' value = 'ลงทะเบียน'>
+        </form>
+
     </body>
 </html>
