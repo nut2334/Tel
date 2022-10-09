@@ -10,7 +10,7 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); ?>
         <form action ='ShowTel.php' method = 'GET'>
         ชื่อ-สกุล:
         <input type='text' name="cus_name"><br>
-        <input type='submit' value = 'ค้นหา'>
+        <input type='submit' value = 'ค้นหา'><input type='search' value='ดูสมาชิกทั้งหมด'>
     </form>
     </body>
 </html>
